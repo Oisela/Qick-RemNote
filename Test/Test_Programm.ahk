@@ -9,6 +9,9 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 ; Hotkey für den gewünschten Text
 
 F5::
-    Send, {Raw}U_{ges}
-return
-
+    SetKeyDelay, 50
+    Send, {Raw}\im 
+    Sleep, 200
+    Send, {enter}
+    Sleep, 200
+Return
