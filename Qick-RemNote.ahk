@@ -8,12 +8,15 @@ SetWorkingDir, %A_ScriptDir% ; Setzt das Arbeitsverzeichnis auf das Verzeichnis 
 ; Variablen
 DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 
-; Hotkeys
+;; Hotkeys
 
-; Hotkey für den gewünschten Text
-3::
-    SendInput, \tag*{\textcolor{green}{}} ; Fügt den Text mit der gewünschten Formatierung ein
-    SendInput, {Left 7} ; Positioniert den Cursor 7 Zeichen nach links, um nach "green" zu kommen
+; Latex
+
+
+F3:: ; Nur bei Block mäöglich
+    Send, {Raw}\tag*{\textcolor{green}{}} ; Fügt das Wort "Automatisierung" ein {Raw} wird für rohenimput benötigt
+    SendInput, {Left 2} ; Positioniert den Cursor 7 Zeichen nach links, um nach "green" zu kommen
 return
+
 
 #IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist
