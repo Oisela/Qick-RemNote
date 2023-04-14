@@ -12,7 +12,7 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 ; Latex
 
 
-+F2:: ; Nur bei Block mäöglich
++F2:: ; Kommentar 
     Send, {Raw}\quad\textcolor{green}{\text{| }} ; Fügt das Wort "Automatisierung" ein {Raw} wird für rohenimput benötigt
     SendInput, {Left 2} ; Positioniert den Cursor 7 Zeichen nach links, um nach "green" zu kommen
 return
@@ -29,5 +29,12 @@ return
     Send, {enter}
     Sleep, 200
 return
+
++F4:: ; Latex
+    Send, {Raw} [[Latex
+    SetKeyDelay, 50
+    Send, {Enter}
+return
+
 
 #IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist

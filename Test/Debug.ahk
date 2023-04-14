@@ -12,7 +12,7 @@ F1:: ; ohne Latex
     Sleep, 50
     Run, "C:\Users\aless\OneDrive\Dokumente\GitHub\Qick-RemNote\Test\Test_Programm.ahk"
     WinActivate, ahk_exe RemNote.exe ; Ersetzen Sie "Fenstertitel" mit dem Titel des Fensters, das Sie in den Vordergrund bringen möchten
-    Sleep, 500
+    Sleep, 1000
     Send, {F5}
 return
 
@@ -25,7 +25,7 @@ F3:: ; Mit Latex
     Send, {Raw}\im 
     Sleep, 100
     Send, {enter}
-    Sleep, 100
+    Sleep, 1000
     Send, {F5}
 return   
 

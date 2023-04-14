@@ -9,9 +9,20 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 ; Hotkey für den gewünschten Text
 
 F5::
+    Send, {Raw} [[LaTeX
     SetKeyDelay, 50
-    Send, {Raw}\im 
-    Sleep, 200
-    Send, {enter}
-    Sleep, 200
+    Sleep, 500
+    Send, {Enter}
+    Sleep, 1000
+    Send, {Raw}##
+    Sleep, 500
+    Send, Extra Detail Card
+    Sleep, 500
+    Send, {Enter}
+    Send, {Raw}: \
+    Sleep, 500
+    Send, iic
+    Sleep, 500
+    Send, {Enter}
+    Send, \
 Return
