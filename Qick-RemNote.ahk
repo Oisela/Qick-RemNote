@@ -36,5 +36,12 @@ return
     Send, {Enter}
 return
 
+;Auto korrection
+
+:*:{{::
+    Send, {{}{}
+return
+
+
 
 #IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist

@@ -42,4 +42,10 @@ F4::
     WinMinimize, A 
 return
 
+
+;Auto korrection
+
+::{{::}}
+
+
 #IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist
