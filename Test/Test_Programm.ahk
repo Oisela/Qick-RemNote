@@ -7,22 +7,11 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 ; Hotkeys
 
 ; Hotkey für den gewünschten Text
-
-F5::
-    Send, {Raw} [[LaTeX
-    SetKeyDelay, 50
-    Sleep, 500
-    Send, {Enter}
-    Sleep, 1000
-    Send, {Raw}##
-    Sleep, 500
-    Send, Extra Detail Card
-    Sleep, 500
-    Send, {Enter}
-    Send, {Raw}: \
-    Sleep, 500
-    Send, iic
-    Sleep, 500
-    Send, {Enter}
-    Send, \
+F5:: 
+    Clipboard := ""
+    Send, ^c
+    Send, {Delete}
+    Clipboard := "\overbrace{"  clipboard  "}^{\text{}}"
+    Send, ^v
+    Send, {Left 2}
 Return
