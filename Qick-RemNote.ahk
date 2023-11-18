@@ -42,6 +42,7 @@ return
     clipboard := "$\vec{"  clipboard  "}$"
     Send, ^v
 Return
+;autocompletions
 
 :*:bspp:: ; Beispiel einfügen
     Send, {Enter}
@@ -54,8 +55,8 @@ Return
     Send, {Raw} Beispiel:
 
 return
-;autocompletions
 
+:*:mis,::hansjürg
 
 :*:m12::\begin{{}pmatrix{}} a & b \end{{}pmatrix{}}{Left 18} 
 :*:m21::\begin{{}pmatrix{}} a \\ b \end{{}pmatrix{}}{Left 19} 
