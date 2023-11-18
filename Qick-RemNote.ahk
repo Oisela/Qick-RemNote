@@ -5,7 +5,7 @@ SendMode Input ; Setzt den Send-Modus auf "Input", um sicherzustellen, dass die 
 SetWorkingDir, %A_ScriptDir% ; Setzt das Arbeitsverzeichnis auf das Verzeichnis des Skripts
 
 ; Variablen
-DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
+DelayIm := 100 ; Globale Variable für den Delay-Wert in Millisekunden
 
 ;; Hotkeys
 
