@@ -43,7 +43,20 @@ return
     Send, ^v
 Return
 
+:*:bspp:: ; Beispiel einfügen
+    Send, {Enter}
+    sleep, 200
+    Send, {Tab}
+    sleep, 200
+    Send, {Raw} /ecd
+    sleep, 200
+    Send, {Enter}
+    Send, {Raw} Beispiel:
+
+return
 ;autocompletions
+
+
 :*:m12::\begin{{}pmatrix{}} a & b \end{{}pmatrix{}}{Left 18} 
 :*:m21::\begin{{}pmatrix{}} a \\ b \end{{}pmatrix{}}{Left 19} 
 :*:m22::\begin{{}pmatrix{}} a & b \\ c & d \end{{}pmatrix{}}{Left 27}
