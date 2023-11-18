@@ -1,4 +1,3 @@
-#Requires AutoHotkey v2.0
 ; Einstellungen
 #IfWinActive, ahk_exe RemNote.exe ; Setzt die Bedingung für die folgenden Hotkeys, dass RemNote.exe aktiv ist
 #SingleInstance, Force ; Stellt sicher, dass nur eine Instanz des Skripts ausgeführt wird
@@ -12,3 +11,10 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 
 ; Latex
 
+
+
+
+:*:\fr::\frac{{}{}}{{}{}}{Left 3}
+
+
+#IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist
