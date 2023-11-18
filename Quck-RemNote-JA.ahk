@@ -9,12 +9,14 @@ DelayIm := 50 ; Globale Variable für den Delay-Wert in Millisekunden
 
 ;; Hotkeys
 
-; Latex
 
 
 
+
+; Autocomplete
 
 :*:\fr::\frac{{}{}}{{}{}}{Left 3}
-
+:*:def,::Definition:
 
 #IfWinActive ; Deaktiviert den Hotkey-Bereich, wenn das RemNote-Fenster nicht mehr aktiv ist
+ 
