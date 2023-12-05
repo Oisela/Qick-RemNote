@@ -52,7 +52,7 @@ Return
     Send, {Raw} /ecd
     sleep, 200
     Send, {Enter}
-    Send, {Raw} Beispiel:
+    
 
 return
 
