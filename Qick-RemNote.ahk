@@ -76,7 +76,7 @@ return
 :*:\ther::\therefore{{}{}}
 :*:\te::\text{{}{}}{left}
 :*:\ar::\left{[}\begin{{}array{}}{{}l{}} A \\ B \end{{}array{}}\right{]}{Left 24}
-:*:\cloze::\colorboxz{{}skyblue{}}{{}{}}{left}^#+!
+:*:\canc::\cancel{{}}{Left}
 :*:\all::\forall{{}{}}
 :*:\ex::\exist{{}{}}
 :*:\ve::\vec{{}{}}{left}
