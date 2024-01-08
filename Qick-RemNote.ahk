@@ -56,7 +56,7 @@ Return
 
 return
 
-;Babe einfach weitere hinzufügen Handsptekijisdfn sdiefjijeij
+;Babe einfach weitere hinzufügen 
 
 
 :*:m12::\begin{{}pmatrix{}} a & b \end{{}pmatrix{}}{Left 18} 
@@ -70,7 +70,7 @@ return
 :*:m43::\begin{{}pmatrix{}}+`n0 & 0 & 0\\+`n0 & 0 & 0\\+`n0 & 0 & 0\\+`n0 & 0 & 0\\+`n\end{{}pmatrix{}}{Left 18} 
 :*:m44::\begin{{}pmatrix{}}+`n0 & 0 & 0 & 0\\+`n0 & 0 & 0 & 0\\+`n0 & 0 & 0 & 0\\+`n0 & 0 & 0 & 0\\+`n\end{{}pmatrix{}}{Left 76} 
 
-
+:*:\\::\\[0.2cm]
 :*:\fr::\frac{{}{}}{{}{}}{Left 3}
 :*:\sq::\sqrt{{}{}}{left}
 :*:\ther::\therefore{{}{}}
