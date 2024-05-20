@@ -15,8 +15,8 @@
 } ; Nur bei Block möglich
 
 
-
+; Extra Detail Card
 ^+1::{
-    Send('+#s')
-    Send "{Down}"
+    Send "/ecd"
+    Send "{Enter}"
 }
