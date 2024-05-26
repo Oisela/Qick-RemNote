@@ -20,3 +20,63 @@
     Send "/ecd"
     Send "{Enter}"
 }
+
+
+
+
+; Miltiplechoice Card
+^+2::{
+    
+    Send "{Enter}"
+    Sleep 100
+    Send "{Enter}"
+    Sleep 100
+    Send "{Enter}"
+    Sleep 100
+    Send "{Enter}"
+    Sleep 100
+    Send "{Enter}"
+    Sleep 100
+    Send "{Up}"
+    Sleep 100
+    Send "{Up}"
+    Sleep 100
+    Send "{Up}"
+    Sleep 100
+    Send "{Up}"
+    Sleep 100
+    Send "{Up}"
+    Sleep 100
+    Send "{Ctrl Down} + v"
+    Sleep 200
+    Send "{Ctrl Up}"
+    Sleep 200
+    Send "{Down}"
+    Sleep 200
+    Send "{Shift Down}"
+    Sleep 200
+    Send "{Down 7}"
+    Sleep 200
+    Send "{Shift Up}"
+    Sleep 200
+    Send "{Del}"
+    Sleep 200
+    Send "{Up}"
+    Sleep 200
+    Send "\imc"
+    Sleep 200
+    Send "{Enter}"
+    Sleep 200
+    Send "{Down}"
+    Sleep 200
+    Send "{Ctrl Down} + v"
+    Sleep 200
+    Send "{Ctrl Down} + a"
+    Send "{Ctrl Up}"
+    Sleep 200
+    Send "{Del}"
+    Sleep 200
+    Send "{Del}"
+
+
+}
