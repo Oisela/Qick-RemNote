@@ -17,12 +17,14 @@
 
 ; Extra Detail Card
 ^+1::{
+    Send "{Enter}"
+    Sleep 100
+    Send "{Tab}"
+    Sleep 100
     Send "/ecd"
+    Sleep 100
     Send "{Enter}"
 }
-
-
-
 
 ; Miltiplechoice Card
 ^+2::{
@@ -80,3 +82,4 @@
 
 
 }
+
