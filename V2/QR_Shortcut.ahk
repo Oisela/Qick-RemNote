@@ -18,7 +18,7 @@
 ; Extra Detail Card
 ^+1::{
     Send "{Enter}"
-    Sleep 100
+    Sleep 100 
     Send "{Tab}"
     Sleep 100
     Send "/ecd"
@@ -28,7 +28,6 @@
 
 ; Miltiplechoice Card
 ^+2::{
-    
     Send "{Enter}"
     Sleep 100
     Send "{Enter}"
@@ -79,7 +78,8 @@
     Send "{Del}"
     Sleep 200
     Send "{Del}"
-
-
 }
+
+
+
 

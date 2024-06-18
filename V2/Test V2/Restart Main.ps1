@@ -1,13 +1,13 @@
-# Define the name of the program
-$programName = "Qick-RemNote-V2"
+# Define the path of the AutoHotkey script
+$scriptPath = "C:\GitHub\Qick-RemNote\Qick-RemNote\V2\Quick-RemNote-V2.ahk"
 
-# Get the process by the program name
-$process = Get-Process -Name $programName -ErrorAction SilentlyContinue
+# Get the process by the script path
+$process = Get-Process | Where-Object { $_.Path -eq $scriptPath }
 
 # If the process is running, stop it
 if ($process) {
-    Stop-Process -Name $programName -Force
+    Stop-Process -Id $process.Id -Force
 }
 
-# Start the program
-Start-Process -FilePath "C:\Windows\System32\$programName.exe"
+# Start the AutoHotkey script
+Start-Process -FilePath "C:\GitHub\Qick-RemNote\Qick-RemNote\V2\Quick-RemNote-V2.ahk" -ArgumentList $scriptPath
