@@ -81,5 +81,16 @@
 }
 
 
+; Delete Buchstaben
+^+3::{
+    Send "{Down}"
+    Send "{Right}"
+    Send "{Right}" 
+    Send "{Right}" 
+    Send "{Delete}"
+    Send "{Delete}"
+    Send "{Delete}" 
+}
+
 
 
